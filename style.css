@@ -40,7 +40,7 @@ ul {
 	cursor: pointer;
 }
 .nav>li:first-child {
-	background: url(./img/nav-logo.png);
+	background: url(img/nav-logo.png);
 	height: 9.5%;
 }
 .nav>li:first-child:hover {
@@ -68,7 +68,7 @@ ul {
 	height: 25%;
 }
 .nav>li>a {
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 13px;
 	color: #B4B4B4;
@@ -126,7 +126,7 @@ ul {
 	margin: 0;
 	position: relative;
 	background: #2F2F2F;
-	font-family: 'lato';
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	text-align: left;
 	height: 9.5%;
@@ -153,10 +153,9 @@ ul {
 	border-bottom: 1px solid #2E2E2E;
 }
 .hidden-ul li a{
-	position: 0;
 	text-decoration: none;
 	color: #ADADAD;
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	text-align: right;
 	width: 100%;
 	top: 10px;
@@ -202,7 +201,7 @@ ul {
     display: none;
     background: #000;
     z-index: 6;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     border-radius: 5px;
 }
 .burger-nav h2 {
@@ -357,7 +356,7 @@ input[type="checkbox"]:checked + label span {
 }
 .browsing8{
 	color: #fff;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     border-left: 9px solid #008AA8;
     border-right: 9px solid #008AA8;
     border-top: 5px solid #008AA8;
@@ -496,7 +495,7 @@ li.fa-twitter, li.fa-facebook {
 	box-sizing: border-box;
 }
 .unheap-box h2 {
-	font-family: 'Orbitron';
+	font-family: 'Orbitron', sans-serif;
 	font-size: 33px;
 	color: #fff;
 }
@@ -515,7 +514,7 @@ li.fa-twitter, li.fa-facebook {
 	line-height: 33px;
 	cursor: pointer;
 	margin: 0 8%;
-	font-family: 'Lato'; 
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -561,7 +560,7 @@ li.fa-twitter, li.fa-facebook {
     align-items: center;
 }
 .marginotes-box .bottom-box {
-	font-family: 'Lato'; 
+	font-family: 'Lato', sans-serif;
 }
 .marginotes-box .bottom-box h3 {
 	font-size: 16px; 
@@ -627,7 +626,7 @@ li.fa-twitter, li.fa-facebook {
     opacity: 0;
 }
 .launch a {
-	font-family: 'Roboto'; 
+	font-family: 'Roboto', sans-serif;
     font-size: 11px;
     color: #fff;
 }
@@ -674,7 +673,7 @@ li.fa-twitter, li.fa-facebook {
 	display: inline-block;
 	color: #695902;
 	font-size: 13px;
-    font-family: 'Roboto'; 
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 .plugin-launch li .fa {
@@ -782,11 +781,11 @@ footer {
 }
 }
 footer li {
-	font-family: 'lato';
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 }
 footer p {
-	font-family: 'lato';
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 }
 .key {
@@ -834,7 +833,7 @@ footer p {
 }
 .footer-plugins {
 	text-align: center;
-	font-family: 'lato';
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	color: #8e8e8e;
 	cursor: pointer;
